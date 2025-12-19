@@ -1,7 +1,7 @@
 # EdgeOne Monitoring Dashboard (EdgeOne 监控大屏)
 
-> [!WARNING]
-> 注意：目前仅支持统计国内版EdgeOne的数据，因为海外版API（edgeone.ai）不同，但应该也可以更改 `baseurl` 来解决
+> [!NOTE]
+> 提示：本项目已全面支持腾讯云 EdgeOne 全球版（中国站与国际站账号均可直接使用）。
 
 这是一个基于 Tencent Cloud EdgeOne API 构建的实时监控大屏，旨在提供直观的流量和请求分析。
 
@@ -61,7 +61,9 @@
 ## 🔑 权限说明
 
 使用的腾讯云访问密钥必须拥有 **EdgeOne 只读访问权限** (`QcloudTEOReadOnlyaccess`)。
-请前往 [访问管理控制台](https://console.cloud.tencent.com/cam) 创建和管理密钥。
+请前往访问管理控制台创建和管理密钥：
+- **国内版 (China Station)**: [https://console.cloud.tencent.com/cam/user/userType](https://console.cloud.tencent.com/cam/user/userType)
+- **海外版 (International Station)**: [https://console.tencentcloud.com/cam/user/userType](https://console.tencentcloud.com/cam/user/userType)
 
 ## 🛠️ 技术栈
 
