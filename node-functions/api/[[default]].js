@@ -11,6 +11,10 @@ import { CommonClient } from "tencentcloud-sdk-nodejs-common";
 
 const app = express();
 
+app.use(express.static(path.join(process.cwd(), 'static')));
+
+app.use(express.json());
+
 // Function to read keys
 function getKeys() {
     // 1. Try Environment Variables first
